@@ -8,7 +8,7 @@ public class task3 {
         a = input.nextFloat();
         System.out.println("Ucgene ait ikinci kenarin uzunlugunu: ");
         b = input.nextFloat();
-        System.out.println("Ucgene ait ilk kenarin uzunlugunu: ");
+        System.out.println("Ucgene ait ucuncu kenarin uzunlugunu: ");
         c = input.nextFloat();
         u = (a+b+c)*0.5f;
         alan = (float) Math.sqrt(u*(u-a)*(u-b)*(u-c));
